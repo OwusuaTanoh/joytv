@@ -62,12 +62,23 @@ Run the database migration and seeder file
 
 `php artisan migrate:fresh && php artisan db:seed`
 
+The command above will run the database tables and include the admin user on the platform. The credentials are below:
+
+```
+Email: lizzy@joytv.com
+Password: JoyTV1234
+```
+
+If you register, you are just a normal user with no privilege.
 
 Start the server with
 
 `php artisan serve`
 
 
+You can view the project on the hosted virtual machine on Azure with the link below:
+
+[Virtual Server Link](http://123254678)
 
 
 

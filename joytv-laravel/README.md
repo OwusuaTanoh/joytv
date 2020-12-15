@@ -71,10 +71,15 @@ Password: JoyTV1234
 
 If you register, you are just a normal user with no privilege.
 
+Link the storage file by running the command:
+
+`php artisan storage:link`
+
 Start the server with
 
 `php artisan serve`
 
+## Run the project on Azure (No installation needed)
 
 You can view the project on the hosted virtual machine on Azure with the link below:
 

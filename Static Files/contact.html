@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lizzy - Home</title>
+    <link rel="stylesheet" href="css/fontawesome/all.css">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <a class="navbar-brand" href="index.html"><img src="img/logo.jpg" alt="" style="width: 40px;"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="events.html">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="news.html">News</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav navbar-right mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link btn btn-outline-primary" href="login.html"><i class="fa fa-sign-in-alt"></i> Login</a>
+                </li>
+                <li class="nav-item" style="margin-left: 5px;">
+                    <a class="nav-link btn btn-outline-primary" href="register.html"><i class="fa fa-user-circle"></i> Register</a>
+                </li>
+            </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="jumbotron">
+        <div class="container text-center">
+            <h1><a href="index.html" style="color: white;">Home</a> <i class="fa fa-arrow-right"></i> Contact Us </h1>
+        </div>
+    </div>
+    <div id="home" style="background: url(/img/event.jpg) no-repeat center center fixed; display: table; height: 100%; position: relative; width: 100%; background-size: cover;">
+        <div class="landing-text text-center">
+            <h1 class="display-4 font-weight-normal text-center">Current Event Title</h1>
+            <h3 class="lead font-weight-normal text-center">Short Description</h3>
+            <p>
+                <a href="#about" class="btn btn-primary">
+                    Register Now!
+                </a>
+            </p>
+        </div>
+    </div>
+    <br><br><br><br>
+
+    <div class="padding container">
+        <div class="row">
+            <div class="col-md-6 text-center">
+                <h3>
+                    Contact Us via the Form
+                </h3>
+                <p>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" class="form-control" placeholder="Your Name" name="name">
+                        </div>
+                        <div class="form-group">
+                          <label for="email">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" name="email">
+                          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" name="subject" class="form-control" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea name="message" id="" cols="30" rows="10" class="form-control" placeholder="message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
+                </p>
+            </div>
+
+            <div class="col-md-6 text-center">
+                <h2 class="text-center">Contact Details</h2><br>
+                <h3>
+                    <i class="fa fa-map-marker" style="font-size: 50px;"></i> Accra, Ghana
+                </h3><br>
+                <h3>
+                    <i class="fa fa-envelope" style="font-size: 50px;"></i> info@lizzy.com
+                </h3><br>
+                <h3>
+                    <i class="fa fa-phone" style="font-size: 50px;"></i> +233 24 123 4567
+                </h3><br>
+            </div>
+        </div>
+    </div> <br><br>
+
+    <div class="padding">
+        <div class="container">
+            <div class="row">
+                <p class="text-center">
+                    Let's embed a google map.
+                </p>
+            </div> <br><br>
+        </div>
+    </div>
+    
+    <br><br><br><br>
+    <footer class="container py-5">
+        <div class="row">
+            <div class="col-6 col-md">
+            <h5>About Us</h5>
+            <p>
+                <img src="img/logo.jpg" alt="" style="width: 50px;">
+            </p>
+            <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium laudantium laudantium
+            </p>
+            </div>
+            <div class="col-6 col-md">
+            <h5>Quick Links</h5>
+            <ul class="list-unstyled text-small">
+                <li><a class="text-muted" href="#">About</a></li>
+                <li><a class="text-muted" href="#">Contact</a></li>
+                <li><a class="text-muted" href="#">Map</a></li>
+                <li><a class="text-muted" href="#">Home</a></li>
+            </ul>
+            </div>
+            <div class="col-6 col-md">
+            <h5>Learn More</h5>
+            <ul class="list-unstyled text-small">
+                <li><a class="text-muted" href="#">News</a></li>
+                <li><a class="text-muted" href="#">Blog</a></li>
+                <li><a class="text-muted" href="#">Projects</a></li>
+                <li><a class="text-muted" href="#">Services</a></li>
+            </ul>
+            </div>
+            <div class="col-6 col-md">
+            <h5>Connect With Us</h5>
+            <ul class="list-unstyled text-small">
+                <li><a class="text-muted" href="#"><i class="fab fa-facebook-f" style="font-size: 20px;"></i> Facebook</a></li>
+                <li><a class="text-muted" href="#"><i class="fab fa-twitter" style="font-size: 20px;"></i> Twitter</a></li>
+                <li><a class="text-muted" href="#"><i class="fab fa-linkedin" style="font-size: 20px;"></i> LinkedIn</a></li>
+                <li><a class="text-muted" href="#"><i class="fab fa-google-plus" style="font-size: 20px;"></i> Google+</a></li>
+            </ul>
+            </div>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col-12 text-center">
+            <small class="d-block mb-3 text-muted">&copy; 2020 by Elizabeth Tanoh</small>
+            </div>
+        </div>
+    </footer>
+
+    
+    
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <script src="js/fontawesome/all.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

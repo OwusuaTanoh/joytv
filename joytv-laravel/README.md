@@ -83,7 +83,11 @@ Start the server with
 
 You can view the project on the hosted virtual machine on Azure with the link below:
 
-[Virtual Server Link](http://123254678)
+[Virtual Server Link](http://104.236.13.72/)
+
+OR Copy and paste this in your browser
+
+`http://104.236.13.72/`
 
 
 

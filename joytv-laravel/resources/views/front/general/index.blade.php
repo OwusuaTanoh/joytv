@@ -4,8 +4,8 @@
 @section('content')
     <div class="position-relative" style="background: url({{ asset('front/img/header.jpg') }}) no-repeat center center fixed; width: 100%; height: 500px; background-size: cover;">
         <div class="col-md-5 p-lg-5 mx-auto my-5">
-            <h1 class="display-4 font-weight-normal">Banner Headline</h1>
-            <p class="lead font-weight-normal">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+            <h1 class="display-4 font-weight-normal">Joy TV</h1>
+            <p class="lead font-weight-normal">Joy Tv provides 24 hours of non-stop, real entertaining action transmitting in Ghana and Accross Africa with programmes from the world's best studios. Programming genres include, award winning Series and Original Productions, Movies, Telenovelas, Reality, Lifestyle and Game shows, Documentaries, Animations, Religious and Family shows. The channel delivers programming for the whole family.</p>
             <a class="btn btn-outline-secondary" href="#">Coming soon</a>
         </div>
         <div class="product-device shadow-sm d-none d-md-block"></div>
@@ -22,7 +22,7 @@
             </div>
 
             <div class="col-md-6 text-center">
-                <h2 class="text-center">All About Lizzy</h2>
+                <h2 class="text-center">All About Joy TV</h2>
                 <p class="lead">
                     Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, ... <a href="{{ route('front.about') }}" class="btn btn-primary">Click to Learn More</a>
                 </p>
